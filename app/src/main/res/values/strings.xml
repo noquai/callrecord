@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Call Record</string>
+    <string name="accessibility_label">Call Record – call recorder</string>
+    <string name="accessibility_description">Lets Call Record capture audio while a phone call is active. It does not read your screen or what you type.</string>
+
+    <string name="setup_title">Setup</string>
+    <string name="step_permissions">1. Grant permissions</string>
+    <string name="step_restricted">2. Allow restricted settings</string>
+    <string name="step_accessibility">3. Turn on the recorder service</string>
+    <string name="step_battery">4. Disable battery optimisation</string>
+    <string name="done">Done</string>
+    <string name="open">Open</string>
+
+    <string name="auto_record">Record calls automatically</string>
+    <string name="audio_source">Audio source</string>
+    <string name="recordings">Recordings</string>
+    <string name="no_recordings">No recordings yet. Make a call after finishing setup.\nTip: use speakerphone so the other person is recorded clearly.</string>
+
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="no_player">Could not play this file</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="delete_confirm">Delete this recording?</string>
+    <string name="unknown_number">Unknown</string>
+    <string name="incoming">Incoming</string>
+    <string name="outgoing">Outgoing</string>
+
+    <string name="restricted_help_title">Allow restricted settings</string>
+    <string name="restricted_help">Android blocks accessibility for apps installed outside the Play Store until you allow it.\n\n1. Tap Open to go to App info.\n2. Tap the ⋮ menu in the top-right corner.\n3. Tap \"Allow restricted settings\" and confirm.\n\nIf you don\'t see the option, try step 3 first; Android shows it after the first blocked attempt.</string>
+
+    <string name="notif_channel">Call recording</string>
+    <string name="notif_recording">Recording call…</string>
+    <string name="notif_saved">Call recording saved</string>
+</resources>

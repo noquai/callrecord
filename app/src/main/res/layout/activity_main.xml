@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setup_title"
+        android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+    <LinearLayout
+        android:id="@+id/setup_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="4dp" />
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/auto_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/auto_record" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/audio_source"
+        android:textAppearance="?attr/textAppearanceLabelLarge" />
+
+    <Spinner
+        android:id="@+id/audio_source"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/audio_sources" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/recordings"
+        android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="16dp"
+        android:text="@string/no_recordings" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

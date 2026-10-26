@@ -1,0 +1,9 @@
+<resources>
+    <!-- Order must match AudioSources.ALL -->
+    <string-array name="audio_sources">
+        <item>Voice recognition (recommended)</item>
+        <item>Microphone</item>
+        <item>Voice communication</item>
+        <item>Voice call (system apps only, usually fails)</item>
+    </string-array>
+</resources>
